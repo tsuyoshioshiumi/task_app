@@ -39,7 +39,11 @@
 
         <div class="button-groupB">
             <input type="submit" value="更新">
-            <button onclick='location.href="{{ route('tasks.show', $task) }}"'>詳細に戻る</button>
+
+            <a href="{{ route('tasks.show', $task) }}">
+                <button type="button">詳細に戻る</button>
+            </a>
+
         </div>
 
     </form>
