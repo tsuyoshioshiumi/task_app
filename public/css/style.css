@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.button-groupA,
+.button-groupB {
+    display: flex;
+}
+
+.button-groupA>*:not(:last-child) {
+    margin-right: 10px;
+}
+
+.value {
+    margin-bottom: 10px;
+}
+.error{
+color: red;
+}
